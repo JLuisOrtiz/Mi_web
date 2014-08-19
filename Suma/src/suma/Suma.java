@@ -13,9 +13,9 @@ public class Suma {
     /**
      * @param args the command line arguments
      */
-    public int sumar(int a, int b){
+    public int sumar(int e, int b){
     int s=0;
-    s=a+b;
+    s=e+b;
     {
      return s;   
     }
