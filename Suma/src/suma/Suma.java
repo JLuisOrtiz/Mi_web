@@ -13,7 +13,14 @@ public class Suma {
     /**
      * @param args the command line arguments
      */
-    public void sumar(){}
+    public int sumar(int a, int b){
+    int s=0;
+    s=a+b;
+    {
+     return s;   
+    }
+    
+            }
     public static void main(String[] args) {
         // TODO code application logic here
     }
