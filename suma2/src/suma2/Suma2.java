@@ -15,7 +15,7 @@ public class Suma2 {
      */
     public void sumar(){}
     
-    public void restar(){}
+    public void res(){}
     {}
     
     public static void main(String[] args) {
