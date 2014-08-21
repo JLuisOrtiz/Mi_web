@@ -6,7 +6,7 @@ package suma2;
 
 /**
  *
- * @author janeth
+ * @author 
  */
 public class NewJFrame extends javax.swing.JFrame {
 
