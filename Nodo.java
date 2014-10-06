@@ -1,40 +1,50 @@
 /*
- * To change this template, choose Tools | Templates
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prueba;
 
 /**
- *
- * @author janeth
+ *Creacion de nodos
+ * @author Jhonson
  */
 public class Nodo {
-  private Object dato;
-  private Nodo siguiente;
-public Nodo(){
-    this.dato=null;
-    this.siguiente=null;
-}
-public Nodo(Object inputData)
-{
-    this.dato=inputData;
-    this.siguiente=null;
-}
-public void establecedato(Object datos)
-{
-    this.dato=datos;
-}
-public Object obtenerdato()
-{
-    return dato;
-}
-public void establecenodo(Nodo nodo)
-{
-    this.siguiente=nodo;
-}
-public Nodo obtenersiguiente()
-{
-    return siguiente;
-}
-  
+    String Dato;
+    Nodo siguiente = null;
+    /**
+     * Crea un nodo
+     * @param Dato Informacion del nodo
+     */
+    public Nodo(String Dato){
+        this.Dato = Dato;
+        siguiente = null;
+    }
+    /**
+     * Retorna un dato
+     * @return La informacion del nodo
+     */
+    public String obtenerDato(){
+        return Dato;
+    }
+    /**
+     * Metodo para pasar al nodo siguiente
+     * @return Devuelve el nodo
+     */
+    public Nodo siguiente(){
+        return siguiente;
+    }
+    /**
+     * Se enlazan los nodos
+     * @param siguiente Nodo a enlazar
+     */
+    public void establecersiguiente(Nodo siguiente){
+        this.siguiente = siguiente;
+    }
+    /**
+     * Se establece un dato al nodo
+     * @param Dato Informacion
+     */
+    public void establecerDato(String Dato){
+        this.Dato = Dato;
+    }
 }
